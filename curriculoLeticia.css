@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-45deg, #ffeeb5, #ffabea, #ff7474);
+    font-family: "Poppins", sans-serif;
+
+}    
+header, nav, main, side, footer{
+    display: flex;
+    margin: 3px;
+    background: linear-gradient(-45deg, #ffeeb5, #ffb7ed, #ffb3b3);
+}
+header{
+    flex: 1 1 100vw;
+    height: 100px;
+}
+button{
+    /*Para modificar a dimensão do botão*/
+    margin-top: 10%;
+    width: 150%;
+    text-align: center;
+    /*Para personalizar o design botão em geral*/
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(-45deg, #b40069, #e42b87, #ff74b9);
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 40px;
+    outline: none;
+    cursor: pointer;
+}
+nav{
+    flex: 1 1 100vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav a{
+    margin: 3%;
+    font-size: 20pt;
+}
+main{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 3px;
+    flex: 100 100 200vw; 
+    height: calc(100vh - 224px);
+}
+main div{
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+}
+main h3{
+    padding: 5px;
+    margin: 10px;
+}
+main h4{
+    padding: 5px;
+    margin: 10px;
+}
+main p{
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    flex: 1 1 100vw;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
